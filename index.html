@@ -1,19 +1,560 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ICO -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/global/main.ico">
+
+    <!-- FONTS -->
+    <link rel="stylesheet" href="fonts/Factor/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Le/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Bebas/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Manrope/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Azkia/stylesheet.css">
+
+
+
+    <!-- CSS STYLES -->
     <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link href="css/style.css" rel="stylesheet">
+
+
     <title>semkav</title>
 </head>
+
+<!-- MAIN -->
+
 <body>
 
 
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="header__logo">
+                    <img class="header__img" src="img/header/logo.png"
+                        alt="the most famous street photographer in Russia">
+                    <p class="header__text">
+                        Онлайн курс от самого известного
+                        стрит-фотографа России
+                    </p>
+                </a>
+                <div class="header__btns">
+                    <div class="header__switch-theme">
+                        <span>С</span><span>Т</span>
+                    </div>
+                    <a href="#" class="header__inst">
+                        semkavkvadrate
+                    </a>
+                    <p class="header__subs">
+                        1.3m
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
 
 
+    <section class="offer">
+        <div class="container">
+            <div class="offer__inner">
+                <img class="offer__first" src="img/header/camera.png" alt="">
+                <img class="offer__second" src="img/header/comment.png" alt="">
+                <h2 class="offer__subtitle">
+                    Курс от Сёмы Резчикова
+                </h2>
+                <h1 class="offer__title">
+                    Начинающий фотограф
+                </h1>
+                <p class="offer__text">
+                    Узнаешь всё о том, как выбрать свою первую камеру.
+                    Поймешь принципы работы со светом и композицией в кадре,
+                    а также создашь своё первое профессиональное портфолио
+                </p>
+                <a class="offer__link" href="#">
+                    <span class="offer__link-text">принять участие</span>
+                    <span class="offer__upper"></span>
+                </a>
+                </img>
+            </div>
+    </section>
+
+
+
+    <section class="results">
+        <div class="container">
+            <div class="results__inner">
+                <h1 class="results__title title">
+                    Результат после обучения
+                </h1>
+                <ul class="results__list">
+                    <li class="results__item">
+                        <img class="results__img" src="img/results/photo.png" alt="">
+                        <h3 class="results__item-title">
+                            Перестанете бояться камеру
+                        </h3>
+                        <p class="results__item-text">
+                            Поймете принцип её работы, научитесь работать со всеми настройками
+                        </p>
+                    </li>
+                    <li class="results__item">
+                        <img class="results__img results__img--bad" src="img/results/video.png" alt="">
+                        <h3 class="results__item-title">
+                            Начнёте снимать
+                        </h3>
+                        <p class="results__item-text">
+                            Уйдете от постоянного поиска идей для фото, научитесь искать локации и создавать интересные
+                            кадры
+                        </p>
+                    </li>
+                    <li class="results__item">
+                        <img class="results__img results__img--bad" src="img/results/portfolio.png" alt="">
+                        <h3 class="results__item-title">
+                            Составите портфолио
+                        </h3>
+                        <p class="results__item-text">
+                            Поймёте как правильно составить портфолио и выделиться на фоне остальных фотографов
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about">
+        <div class="container">
+            <div class="about__inner">
+                <h1 class="about__title title">
+                    Об авторе
+                </h1>
+                <picture>
+                    <source srcset="img/about/bg-2.png" media="(max-width: 880px)">
+                    <img class="about__img" src="img/about/bg.png" usemap="#stars">
+                </picture>
+
+                <map name="stars">
+                    <area class="about__star about__star--1" shape="circle" coords="245, 118, 20" alt="">
+
+                    <area class="about__star about__star--2" shape="circle" coords="178, 249, 20" alt="">
+
+                    <area class="about__star about__star--3" shape="circle" coords="178, 376, 20" alt="">
+
+                    <area class="about__star about__star--4" shape="circle" coords="245, 498, 20" alt="">
+
+                    <area class="about__star about__star--5" shape="circle" coords="685, 498, 20" alt="">
+
+                    <area class="about__star about__star--6" shape="circle" coords="752, 376, 20" alt="">
+
+                    <area class="about__star about__star--7" shape="circle" coords="750, 249, 20" alt="">
+
+                    <area class="about__star about__star--8" shape="circle" coords="695, 127, 20" alt="">
+
+                </map>
+
+
+                <p class="about__descr about__descr--1">
+                    Занимается фотографией <br> <span>больше 9 лет</span>
+                </p>
+
+                <p class="about__descr about__descr--2">
+                    Автор <span>самого популярного</span> аккаунта в ТикТок по стрит-фотографии. <br> 12,8 млн
+                    подписчиков
+                </p>
+
+                <p class="about__descr about__descr--3">
+                    Автор <span>самого популярного</span> аккаунта в ТикТок по стрит-фотографии. <br> 12,8 млн
+                    подписчиков
+                </p>
+
+                <p class="about__descr about__descr--4">
+                    Автор <span>самого популярного</span> аккаунта в ТикТок по стрит-фотографии. <br> 12,8 млн
+                    подписчиков
+                </p>
+
+                <p class="about__descr about__descr--5">
+                    Автор <span>самого популярного</span> аккаунта в ТикТок по стрит-фотографии. <br> 12,8 млн
+                    подписчиков
+                </p>
+
+                <p class="about__descr about__descr--6">
+                    Автор <span>самого популярного</span> аккаунта в ТикТок по стрит-фотографии. <br> 12,8 млн
+                    подписчиков
+                </p>
+
+                <p class="about__descr about__descr--7">
+                    Автор <span>самого популярного</span> аккаунта в ТикТок по стрит-фотографии. <br> 12,8 млн
+                    подписчиков
+                </p>
+
+                <p class="about__descr about__descr--8">
+                    Автор <span>самого популярного</span> аккаунта в ТикТок по стрит-фотографии. <br> 12,8 млн
+                    подписчиков
+                </p>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="time">
+        <div class="container">
+            <div class="time__inner">
+                <img class="time__img" src="img/time/man.png" alt="">
+                <div class="time__main">
+                    <h4 class="time__subtitle">
+                        Успей вписаться
+                    </h4>
+                    <h1 class="time__title title">
+                        по специальным условиям
+                    </h1>
+                    <p class="time__text">
+                        Переходите в Telegram-бот и вводите промокод <span>«STREETPHOTO»</span>. Тогда вы получите
+                        скидку и набор
+                        пресетов для обработки фото в подарок. До встречи!
+                    </p>
+                    <div class="time__price">
+                        <a class="time__link" href="#">
+                            <span class="time__link-text">принять участие</span>
+                            <span class="time__upper"></span>
+                        </a>
+                        <p class="time__numbers">
+                            <span class="time__big-text">18 490₽</span> <span class="time__mini-text">23 000₽</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="program">
+        <div class="container">
+            <div class="program__inner">
+                <h1 class="program__title title">
+                    Программа курса
+                </h1>
+                <div class="program__swiper">
+
+
+                    <div class="program__item">
+                        <div class="program__item-head">
+                            <h5 class="program__item-title">
+                                1 модуль
+                            </h5>
+                            <p class="program__item-subtitle">
+                                4 урока
+                            </p>
+                        </div>
+                        <ol class="program__item-list">
+                            <li class="program__item-item">
+                                Знакомство, рассказ о том, что будет в курсе
+                            </li>
+                            <li class="program__item-item">
+                                Этапы создания фотографии
+                            </li>
+                            <li class="program__item-item">
+                                Первая камера, как подходить к покупке и по каким критерием выбирать
+                            </li>
+                            <li class="program__item-item">
+                                Типы фотоаппаратов и объективов
+                                <ul class="program__item-ul">
+                                    <li class="program__item-ul-item">
+                                        Зеркальные и беззеркальные камеры
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="program__item-item">
+                                Насмотренность
+                            </li>
+                        </ol>
+                    </div>
+
+
+
+                    <div class="program__item">
+                        <div class="program__item-head">
+                            <h5 class="program__item-title">
+                                2 модуль
+                            </h5>
+                            <p class="program__item-subtitle">
+                                5 уроков
+                            </p>
+                        </div>
+                        <ol class="program__item-list">
+                            <li class="program__item-item">
+                                Режимы фотоаппарата
+                                <ul class="program__item-ul">
+                                    <li class="program__item-ul-item">
+                                        Ручной режим
+                                    </li>
+                                    <li class="program__item-ul-item">
+                                        Авторежим
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="program__item-item">
+                                Настройка камеры
+                                <ul class="program__item-ul">
+                                    <li class="program__item-ul-item">
+                                        Экспозиция
+                                    </li>
+                                    <li class="program__item-ul-item">
+                                        Баланс белого
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="program__item-item">
+                                Стиль изображения
+                            </li>
+                            <li class="program__item-item">
+                                Выбор формата
+                                <ul class="program__item-ul">
+                                    <li class="program__item-ul-item">
+                                        RAW
+                                    </li>
+                                    <li class="program__item-ul-item">
+                                        JPG
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+
+
+                    <div class="program__item">
+                        <div class="program__item-head">
+                            <h5 class="program__item-title">
+                                3 модуль
+                            </h5>
+                            <p class="program__item-subtitle">
+                                5 уроков
+                            </p>
+                        </div>
+                        <ol class="program__item-list">
+                            <li class="program__item-item">
+                                Что снимать?
+                            </li>
+                            <li class="program__item-item">
+                                Как свет влияет на фото
+                            </li>
+                            <li class="program__item-item">
+                                Виды света
+                                <ul class="program__item-ul">
+                                    <li class="program__item-ul-item">
+                                        Естественный
+                                    </li>
+                                    <li class="program__item-ul-item">
+                                        Студийный
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="program__item-item">
+                                Съемка при студийном свете
+                            </li>
+                            <li class="program__item-item">
+                                Съемка при естественном освещении
+                            </li>
+                            <li class="program__item-item">
+                                Использование светофильтров
+                            </li>
+                        </ol>
+                    </div>
+
+
+                    <div class="program__item">
+                        <div class="program__item-head">
+                            <h5 class="program__item-title">
+                                4 модуль
+                            </h5>
+                            <p class="program__item-subtitle">
+                                4 урока
+                            </p>
+                        </div>
+                        <ol class="program__item-list">
+                            <li class="program__item-item">
+                                Обработка фотографий
+                                <ul class="program__item-ul">
+                                    <li class="program__item-ul-item">
+                                        Виды программ
+                                    </li>
+                                    <li class="program__item-ul-item">
+                                        Работа в Photoshop или Lightroom
+                                    </li>
+                                    <li class="program__item-ul-item">
+                                        Цветокорекция
+                                    </li>
+                                    <li class="program__item-ul-item">
+                                        Использование пресетов
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="program__item-item">
+                                Составление портфолио
+                                <ul class="program__item-ul">
+                                    <li class="program__item-ul-item">
+                                        Выбор работ для портфолио
+                                    </li>
+                                    <li class="program__item-ul-item">
+                                        Сервис для создания портфолио
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="video">
+        <div class="container">
+            <div class="video__inner">
+                <img class="video__first" src="img/video/mic.png" alt="">
+                <img class="video__second" src="img/video/cup.png" alt="">
+                <div class="video__title title">
+                    Как проходят уроки
+                </div>
+                <div class="video__wrapper">
+                    <div class="video__video">
+                        <iframe src="https://www.youtube.com/embed/khbakQ9bI_I" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video__info">
+                        <p class="video__text">
+                            Посмотри одни из уроков бесплатно, чтобы понять, как я подхожу к обучению
+                        </p>
+                        <a class="video__link" href="#">
+                            Скачать материалы урока
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="questions">
+        <div class="container">
+            <div class="questions__inner">
+                <h1 class="questions__title title">
+                    Ответы на вопросы
+                </h1>
+                <ul class="questions__accard" data-accordion="open">
+                    <li class="questions__item">
+                        <div class="questions__accard-head">
+                            Какое необходимо оборудование для успешного прохождения курса?
+                        </div>
+                        <div class="questions__accard-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, accusamus doloremque? Quia
+                            expedita quidem dolore, aliquid quam provident. Hic blanditiis aliquam possimus vel ad omnis
+                            dolorum eligendi unde? Pariatur, praesentium! Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Ipsa, accusamus doloremque? Quia expedita quidem dolore, aliquid quam
+                            provident. Hic blanditiis aliquam possimus vel ad omnis dolorum eligendi unde? Pariatur,
+                            praesentium! Ipsa, accusamus doloremque? Quia expedita quidem dolore, aliquid quam
+                            provident. Hic blanditiis aliquam possimus vel ad omnis dolorum eligendi unde? Pariatur,
+                            praesentium!
+                        </div>
+                    </li>
+                    <li class="questions__item">
+                        <div class="questions__accard-head">
+                            Когда начнётся курс? Сколько он будет длиться?
+                        </div>
+                        <div class="questions__accard-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, accusamus doloremque? Quia
+                            expedita quidem dolore, aliquid quam provident. Hic blanditiis aliquam possimus vel ad omnis
+                            dolorum eligendi unde? Pariatur, praesentium! Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Ipsa, accusamus doloremque? Quia expedita quidem dolore, aliquid quam
+                            provident. Hic blanditiis aliquam possimus vel ad omnis dolorum eligendi unde? Pariatur,
+                            praesentium! Ipsa, accusamus doloremque? Quia expedita quidem dolore, aliquid quam
+                            provident. Hic blanditiis aliquam possimus vel ad omnis dolorum eligendi unde? Pariatur,
+                            praesentium!
+                        </div>
+                    </li>
+                    <li class="questions__item">
+                        <div class="questions__accard-head">
+                            Сколько времени в день нужно будет уделять, чтобы успеть всё пройти?
+                        </div>
+                        <div class="questions__accard-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, accusamus doloremque? Quia
+                            expedita quidem dolore, aliquid quam provident. Hic blanditiis aliquam possimus vel ad omnis
+                            dolorum eligendi unde? Pariatur, praesentium! Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Ipsa, accusamus doloremque? Quia expedita quidem dolore, aliquid quam
+                            provident. Hic blanditiis aliquam possimus vel ad omnis dolorum eligendi unde? Pariatur,
+                            praesentium! Ipsa, accusamus doloremque? Quia expedita quidem dolore, aliquid quam
+                            provident. Hic blanditiis aliquam possimus vel ad omnis dolorum eligendi unde? Pariatur,
+                            praesentium!
+                        </div>
+                    </li>
+                    <li class="questions__item">
+                        <div class="questions__accard-head">
+                            Есть ли возможность смотреть уроки в записи после окончания курса?
+                        </div>
+                        <div class="questions__accard-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, accusamus doloremque? Quia
+                            expedita quidem dolore, aliquid quam provident. Hic blanditiis aliquam possimus vel ad omnis
+                            dolorum eligendi unde? Pariatur, praesentium! Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Ipsa, accusamus doloremque? Quia expedita quidem dolore, aliquid quam
+                            provident. Hic blanditiis aliquam possimus vel ad omnis dolorum eligendi unde? Pariatur,
+                            praesentium! Ipsa, accusamus doloremque? Quia expedita quidem dolore, aliquid quam
+                            provident. Hic blanditiis aliquam possimus vel ad omnis dolorum eligendi unde? Pariatur,
+                            praesentium!
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="promo">
+        <div class="container">
+            <div class="promo__inner">
+                <h5 class="promo__subtitle">
+                    Промокод
+                </h5>
+                <h2 class="promo__title">
+                    «streetphoto»
+                </h2>
+                <p class="promo__text">
+                    Успей ввести промокод до 27.06
+                    и получи скидку 20% на курс и набор
+                    пресетов для обработки фото в подарок
+                </p>
+                <a class="promo__link" href="#">
+                    получить скидку
+                </a>
+                <a class="promo__video" href="#">
+                    <img class="promo__btn" src="img/promo/btn.svg" alt="">
+                    <p class="promo__btn-text">
+                        Видео-инструкция <br>
+                        «Как получить скидку»
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <div class="f">А</div>
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/main-dist.js"></script>
-    
+
+
 </body>
+
 </html>

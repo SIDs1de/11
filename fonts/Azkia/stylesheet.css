@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Azkia';
+    src: url('Azkia.otf');
+    src: local('Azkia'),
+        url('Azkia.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
