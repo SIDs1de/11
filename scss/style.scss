@@ -657,7 +657,7 @@ ol {
     max-width: 950px;
     margin: 0 auto;
     min-height: 512px;
-    margin-bottom: 300px;
+    margin-bottom: 150px;
     &__inner {
         margin: 0 auto;
         padding-top: 100px;
@@ -721,6 +721,41 @@ ol {
     &__btn-text {
         color: rgba(81, 57, 57, 0.7);
         transition: all 0.2s;
+    }
+}
+
+.footer {
+    margin-bottom: 80px;
+    &__inner {
+        padding: 55px;
+        background-color: #fff;
+        box-shadow: 0px 10px 100px rgba(81, 57, 57, 0.08);
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        max-width: 100%;
+    }
+    &__img {
+        max-width: 100%;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    &__upper {
+        font-size: 14px;
+    }
+    &__mid {
+        font-size: 14px;
+        color: rgba(81, 57, 57, 0.5);
+    }
+    &__down {
+        font-size: 14px;
+        color: rgba(81, 57, 57, 0.5);
     }
 }
 
@@ -816,7 +851,7 @@ ol {
     .promo {
         max-width: 840px;
         min-height: 484px;
-        margin-bottom: 220px;
+        margin-bottom: 150px;
         &__inner {
             padding-left: 50px;
         }
@@ -991,6 +1026,32 @@ ol {
         &__video {
             bottom: 150px;
             top: auto;
+        }
+    }
+    .footer {
+        max-width: 420px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        &__inner {
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__logo {
+            margin-bottom: 30px;
+        }
+        &__info {
+            text-align: center;
+        }
+        &__upper {
+            font-size: 14px;
+        }
+        &__mid {
+            font-size: 14px;
+            color: rgba(81, 57, 57, 0.5);
+        }
+        &__down {
+            font-size: 14px;
+            color: rgba(81, 57, 57, 0.5);
         }
     }
 }
@@ -1453,6 +1514,21 @@ ol {
             font-size: 10px;
         }
     }
+    .footer {
+        margin-bottom: 10px;
+        &__inner {
+            padding: 45px 35px;
+        }
+        &__upper {
+            font-size: 12px;
+        }
+        &__mid {
+            font-size: 12px;
+        }
+        &__down {
+            font-size: 12px;
+        }
+    }
 }
 
 .slick-dots {
@@ -1508,4 +1584,3 @@ body::-webkit-scrollbar-thumb {
         background-color: rgb(184, 184, 184); /* цвет плашки */
     }
 }
-
