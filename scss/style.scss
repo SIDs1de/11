@@ -51,7 +51,6 @@ ul {
 }
 
 ol {
-    // padding: 0;
     margin: 0;
 }
 
@@ -171,12 +170,6 @@ ol {
     text-align: center;
     position: relative;
     overflow: hidden;
-    &__inner {
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        // margin-bottom: 200px;
-    }
     &__first {
         position: absolute;
         top: 30%;
@@ -228,24 +221,9 @@ ol {
         font-size: 108px;
         line-height: 121px;
         position: relative;
-        // top: -85px;
         z-index: -1;
         margin-bottom: 10px;
         position: relative;
-        // &::before {
-        //     content: url("../img/header/comment.png");
-        //     position: absolute;
-        //     top: -230%;
-        //     right: -6%;
-        //     z-index: -1;
-        // }
-        // &::after {
-        //     content: url("../img/header/camera.png");
-        //     position: absolute;
-        //     top: -140%;
-        //     left: -20%;
-        //     z-index: -1;
-        // }
     }
     &__text {
         max-width: 535px;
@@ -353,7 +331,6 @@ ol {
         position: relative;
         left: 50%;
         transform: translateX(-60%);
-        // max-width: 80%;
     }
     &__descr {
         text-align: center;
@@ -654,11 +631,9 @@ ol {
     }
     &__accard-head {
         padding: 40px;
-        // box-shadow: 0px 10px 100px rgba(#000, 0.03);
         cursor: pointer;
         position: relative;
         user-select: none;
-        // pointer-events: none;
         &::after {
             content: "";
             position: absolute;
