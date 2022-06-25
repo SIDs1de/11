@@ -306,8 +306,6 @@ ol {
         margin-bottom: 10px;
         font-weight: 700;
     }
-    &__item-text {
-    }
 }
 .title {
     font-family: "Le Murmure";
@@ -543,8 +541,6 @@ ol {
         padding-left: 20px;
         margin-top: 10px;
     }
-    &__item-ul-item {
-    }
 }
 
 .video {
@@ -619,8 +615,6 @@ ol {
     }
     &__title {
         margin-bottom: 40px;
-    }
-    &__accard {
     }
     &__item {
         background-color: #fff;
@@ -994,15 +988,9 @@ ol {
             font-size: 16px;
             text-align: center;
         }
-        &__link {
-        }
         &__video {
             bottom: 150px;
             top: auto;
-        }
-        &__btn {
-        }
-        &__btn-text {
         }
     }
 }
