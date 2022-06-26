@@ -142,4 +142,43 @@ $(document).ready(function () {
         $('.about__star--7').attr('coords', '275, 151, 30');
         $('.about__star--8').attr('coords', '248, 94, 30');
     }
+
+    $('.program__link--1').click(function () {
+        $('.overlay--1').fadeIn();
+        $('body').addClass('active');
+    });
+
+    $('.program__link--2').click(function () {
+        $('.overlay--2').fadeIn();
+        $('body').addClass('active');
+    });
+    $('.program__link--3').click(function () {
+        $('.overlay--3').fadeIn();
+        $('body').addClass('active');
+    });
+    $('.program__link--4').click(function () {
+        $('.overlay--4').fadeIn();
+        $('body').addClass('active');
+    });
+
+    $('.close-popup').click(function () {
+        $('.overlay').fadeOut();
+        $('body').removeClass('active');
+    });
+
+    $('.bg-popup').click(function () {
+        $('.overlay').fadeOut();
+        $('body').removeClass('active');
+    });
+
+    $('.popup__prize').click(function () {
+        $('.overlay').fadeOut();
+        $('body').removeClass('active');
+    });
+
+
+
+
+
+
 });

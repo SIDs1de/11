@@ -18,6 +18,9 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: #513939;
+    &.active {
+        overflow: hidden;
+    }
 }
 
 .container {
@@ -287,6 +290,7 @@ ol {
         text-align: center;
         align-items: center;
         position: relative;
+        flex: 1 1 auto;
     }
     &__item + &__item {
         margin-left: 60px;
@@ -498,6 +502,8 @@ ol {
         border-radius: 30px;
         padding-bottom: 36px;
         margin-right: 20px;
+        position: relative;
+        min-height: 530px;
     }
     &__item-head {
         display: flex;
@@ -540,6 +546,159 @@ ol {
         list-style-type: disc;
         padding-left: 20px;
         margin-top: 10px;
+    }
+    &__link {
+        font-size: 16px;
+        color: #ff8560;
+        display: block;
+        text-align: center;
+        transition: all 0.2s;
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        cursor: pointer;
+        &:hover {
+            color: #ff3c00;
+        }
+    }
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: none;
+    background: rgba(#000, 0.7);
+}
+
+.popup {
+    position: absolute;
+    width: 780px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 50px;
+    padding-right: 15px;
+    background-color: #fff;
+    box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.03);
+    border-radius: 30px;
+}
+
+.popup__body {
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-right: 30px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 20px;
+    right: 43px;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    &::after {
+        content: url("../img/popup/close.svg");
+        position: absolute;
+        top: 11px;
+        left: -4px;
+    }
+}
+.popup__head {
+}
+
+.bg-popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.popup {
+    &__body {
+    }
+    &__head {
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(81, 57, 57, 0.2);
+        margin-bottom: 50px;
+    }
+    &__title {
+        font-family: "Le Murmure";
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 47px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        margin-right: 40px;
+    }
+    &__num {
+        font-family: "Azkia";
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 66px;
+        letter-spacing: -0.02em;
+        background: linear-gradient(94.7deg, #fe6a51 0%, #ffd58c 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    &__inner {
+    }
+    &__list {
+    }
+    &__item {
+    }
+    &__item + &__item {
+        margin-top: 50px;
+    }
+    &__lesson {
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.08em;
+        color: rgba(81, 57, 57, 0.5);
+        margin-bottom: 5px;
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+    &__par {
+        font-size: 16px;
+    }
+    &__par + &__par {
+        margin-top: 10px;
+    }
+    &__prize {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 700;
+        padding: 13px 20px 13px 49px;
+        background: linear-gradient(94.7deg, #fe6a51 0%, #ffd58c 100%);
+        border-radius: 10px;
+        display: inline-block;
+        margin-top: 20px;
+        position: relative;
+        &::before {
+            content: "";
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 11px;
+            background: url("../img/popup/prize.svg");
+        }
     }
 }
 
@@ -628,6 +787,10 @@ ol {
         cursor: pointer;
         position: relative;
         user-select: none;
+        transition: all 0.2s;
+        &:hover {
+            color: #000;
+        }
         &::after {
             content: "";
             position: absolute;
@@ -649,6 +812,16 @@ ol {
         box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.03);
         padding: 0 40px 40px;
         display: none;
+        position: relative;
+        &:before {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: 0;
+            height: 1px;
+            width: 100%;
+            background-color: rgb(224, 224, 224);
+        }
     }
 }
 
@@ -745,6 +918,12 @@ ol {
         display: flex;
         flex-direction: column;
         text-align: right;
+        a {
+            transition: all 0.2s;
+            &:hover {
+                color: #000;
+            }
+        }
     }
     &__upper {
         font-size: 14px;
@@ -1054,6 +1233,9 @@ ol {
             color: rgba(81, 57, 57, 0.5);
         }
     }
+    .popup {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 800px) {
@@ -1250,6 +1432,9 @@ ol {
         &__item + &__item {
             margin-top: 8px;
         }
+        &__inner {
+            margin-bottom: 50px;
+        }
     }
     .promo {
         width: 340px;
@@ -1297,6 +1482,36 @@ ol {
         }
         &__btn-text {
             font-size: 14px;
+        }
+    }
+    .popup {
+        &__body {
+        }
+        &__head {
+        }
+        &__title {
+        }
+        &__num {
+        }
+        &__inner {
+        }
+        &__list {
+        }
+        &__item {
+        }
+        &__item + &__item {
+        }
+        &__lesson {
+        }
+        &__subtitle {
+        }
+        &__par {
+        }
+        &__par + &__par {
+        }
+        &__prize {
+            &::before {
+            }
         }
     }
 }
@@ -1529,6 +1744,44 @@ ol {
             font-size: 12px;
         }
     }
+    .popup {
+        padding: 30px;
+        padding-right: 15px;
+        &__body {
+        }
+        &__head {
+        }
+        &__title {
+        }
+        &__num {
+        }
+        &__inner {
+        }
+        &__list {
+        }
+        &__item {
+        }
+        &__item + &__item {
+        }
+        &__lesson {
+            font-size: 12px;
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__par {
+            font-size: 14px;
+        }
+        &__par + &__par {
+        }
+        &__prize {
+            font-size: 14px;
+            width: 100%;
+            line-height: 130%;
+            &::before {
+            }
+        }
+    }
 }
 
 .slick-dots {
@@ -1571,13 +1824,13 @@ li.slick-active button {
     scrollbar-color: #ccc, rgba(#ccc, 0.3);
 }
 
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
     width: 10px; /* ширина scrollbar */
 }
-body::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background: rgba(#ccc, 0.3); /* цвет дорожки */
 }
-body::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background-color: #ccc; /* цвет плашки */
     border-radius: 20px; /* закругления плашки */
     &:active {
