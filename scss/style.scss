@@ -1435,7 +1435,7 @@ ol {
         left: -16px;
         margin-bottom: 50px;
         &__inner {
-            padding-top: 50px;
+            padding-top: 40px;
             width: auto;
             height: 665px;
         }
@@ -1451,7 +1451,7 @@ ol {
             font-size: 14px;
             max-width: 286px;
             margin: 0 auto;
-            margin-bottom: 24px;
+            margin-bottom: 20px;
         }
         &__link {
             padding: 30px 0;
@@ -1460,6 +1460,7 @@ ol {
             width: 100%;
             font-size: 14px;
             line-height: 15px;
+            padding: 25px 0;
         }
         &__video {
             right: auto;
