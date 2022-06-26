@@ -1553,6 +1553,7 @@ ol {
         }
         &__text {
             font-size: 12px;
+            line-height: 150%;
         }
         &__link-text {
             font-size: 12px;
@@ -1579,6 +1580,7 @@ ol {
         }
         &__item-text {
             font-size: 12px;
+            line-height: 150%;
         }
         &__img {
             width: 140px;
@@ -1589,6 +1591,9 @@ ol {
         &__img {
             width: 280px;
             height: 316px;
+        }
+        &__descr {
+            line-height: 150%;
         }
     }
     .time {
@@ -1612,6 +1617,7 @@ ol {
         &__text {
             text-align: left;
             margin-bottom: 60px;
+            line-height: 150%;
         }
         &__price {
             width: 100%;
@@ -1697,6 +1703,7 @@ ol {
         }
         &__text {
             font-size: 12px;
+            line-height: 150%;
         }
         &__link {
             font-size: 12px;
@@ -1731,6 +1738,9 @@ ol {
         &__down {
             font-size: 12px;
         }
+        a {
+            line-height: 150%;
+        }
     }
     .popup {
         padding: 30px;
@@ -1759,6 +1769,7 @@ ol {
         }
         &__par {
             font-size: 14px;
+            line-height: 150%;
         }
         &__par + &__par {
         }
