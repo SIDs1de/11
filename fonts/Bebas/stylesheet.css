@@ -1,4 +1,5 @@
 @font-face {
+    font-display: swap;
     font-family: 'Bebas Neue';
     src: url('BebasNeueBold.eot');
     src: local('Bebas Neue Bold'), local('BebasNeueBold'),
@@ -8,7 +9,6 @@
         url('BebasNeueBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {

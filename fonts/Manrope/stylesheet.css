@@ -1,4 +1,5 @@
 @font-face {
+    font-display: swap;
     font-family: 'Manrope';
     src: url('Manrope-Bold.eot');
     src: local('Manrope Bold'), local('Manrope-Bold'),
@@ -8,10 +9,10 @@
         url('Manrope-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Manrope';
     src: url('Manrope-Semibold.eot');
     src: local('Manrope Semibold'), local('Manrope-Semibold'),
@@ -21,10 +22,10 @@
         url('Manrope-Semibold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Manrope';
     src: url('Manrope-Regular.eot');
     src: local('Manrope Regular'), local('Manrope-Regular'),
@@ -34,10 +35,10 @@
         url('Manrope-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Manrope';
     src: url('Manrope-Light.eot');
     src: local('Manrope Light'), local('Manrope-Light'),
@@ -47,10 +48,10 @@
         url('Manrope-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Manrope';
     src: url('Manrope-Thin.eot');
     src: local('Manrope Thin'), local('Manrope-Thin'),
@@ -60,10 +61,10 @@
         url('Manrope-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Manrope';
     src: url('Manrope-Medium.eot');
     src: local('Manrope Medium'), local('Manrope-Medium'),
@@ -73,10 +74,10 @@
         url('Manrope-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
+    font-display: swap;
     font-family: 'Manrope';
     src: url('Manrope-ExtraBold.eot');
     src: local('Manrope ExtraBold'), local('Manrope-ExtraBold'),
@@ -86,6 +87,5 @@
         url('Manrope-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
-    font-display: swap;
 }
 
