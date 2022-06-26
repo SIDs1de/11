@@ -2,7 +2,7 @@
 
 html {
     box-sizing: border-box;
-    background: url("../img/global/bg.jpg") top center/cover repeat;
+    background: url("../img/global/bg.webp") top center/cover repeat;
 }
 
 *,
@@ -133,7 +133,7 @@ ol {
         }
     }
     &__inst {
-        background: url("../img/header/bg-inst.jpg") center/cover no-repeat;
+        background: url("../img/header/bg-inst.webp") center/cover no-repeat;
         font-weight: 700;
         font-size: 16px;
         padding: 10px 10px 10px 42px;
@@ -199,7 +199,7 @@ ol {
         bottom: -85px;
         position: relative;
         &::before {
-            content: url("../img/header/photo.png");
+            content: url("../img/header/photo.webp");
             position: absolute;
             top: -180%;
             left: 50%;
@@ -358,14 +358,14 @@ ol {
 .time {
     position: relative;
     &::before {
-        content: url("../img/time/ball-1.png");
+        content: url("../img/time/ball-1.webp");
         position: absolute;
         top: -50%;
         left: 0;
         z-index: -1;
     }
     &::after {
-        content: url("../img/time/ball-2.png");
+        content: url("../img/time/ball-2.webp");
         position: absolute;
         top: 80%;
         right: 0;
@@ -835,7 +835,7 @@ section.active {
 }
 
 .promo {
-    background: url("../img/promo/bg.png") center/contain no-repeat;
+    background: url("../img/promo/bg.webp") center/contain no-repeat;
     max-width: 950px;
     margin: 0 auto;
     min-height: 512px;
@@ -1199,7 +1199,7 @@ section.active {
         }
     }
     .promo {
-        background: url("../img/promo/bg-2.png") center/contain no-repeat;
+        background: url("../img/promo/bg-2.webp") center/contain no-repeat;
         height: 898px;
         width: 464px;
         margin-bottom: 110px;

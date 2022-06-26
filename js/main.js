@@ -7,34 +7,34 @@ $(document).ready(function () {
         $('body').toggleClass('black');
         if ($('body').hasClass('black')) {
             $('#dark-theme').attr('href', 'css/style-dark.css');
-            $('.offer__first').attr('src', 'img/header/camera-black.png');
-            $('.offer__second').attr('src', 'img/header/comment-black.png');
-            $('.results__img--1').attr('src', 'img/results/photo-black.png');
-            $('.results__img--2').attr('src', 'img/results/video-black.png');
+            $('.offer__first').attr('src', 'img/header/camera-black.webp');
+            $('.offer__second').attr('src', 'img/header/comment-black.webp');
+            $('.results__img--1').attr('src', 'img/results/photo-black.webp');
+            $('.results__img--2').attr('src', 'img/results/video-black.webp');
             $('.results__img--3').attr(
                 'src',
-                'img/results/portfolio-black.png'
+                'img/results/portfolio-black.webp'
             );
             $('.bg-1').attr('src', 'img/about/bg-black.webp');
             $('.bg-2').attr('srcset', 'img/about/bg-2-black.webp');
-            $('.time__img').attr('src', 'img/time/man-black.png');
-            $('.video__first').attr('src', 'img/video/mic-black.png');
-            $('.video__second').attr('src', 'img/video/cup-black.png');
-            $('.questions__first').attr('src', 'img/questions/lens-black.png');
+            $('.time__img').attr('src', 'img/time/man-black.webp');
+            $('.video__first').attr('src', 'img/video/mic-black.webp');
+            $('.video__second').attr('src', 'img/video/cup-black.webp');
+            $('.questions__first').attr('src', 'img/questions/lens-black.webp');
             $('.footer__img').attr('src', 'img/footer/brains-black.svg');
         } else {
             $('#dark-theme').attr('href', '#');
-            $('.offer__first').attr('src', 'img/header/camera.png');
-            $('.offer__second').attr('src', 'img/header/comment.png');
-            $('.results__img--1').attr('src', 'img/results/photo.png');
-            $('.results__img--2').attr('src', 'img/results/video.png');
-            $('.results__img--3').attr('src', 'img/results/portfolio.png');
+            $('.offer__first').attr('src', 'img/header/camera.webp');
+            $('.offer__second').attr('src', 'img/header/comment.webp');
+            $('.results__img--1').attr('src', 'img/results/photo.webp');
+            $('.results__img--2').attr('src', 'img/results/video.webp');
+            $('.results__img--3').attr('src', 'img/results/portfolio.webp');
             $('.bg-1').attr('src', 'img/about/bg.webp');
             $('.bg-2').attr('srcset', 'img/about/bg-2.webp');
-            $('.time__img').attr('src', 'img/time/man.png');
-            $('.video__first').attr('src', 'img/video/mic.png');
-            $('.video__second').attr('src', 'img/video/cup.png');
-            $('.questions__first').attr('src', 'img/questions/lens.png');
+            $('.time__img').attr('src', 'img/time/man.webp');
+            $('.video__first').attr('src', 'img/video/mic.webp');
+            $('.video__second').attr('src', 'img/video/cup.webp');
+            $('.questions__first').attr('src', 'img/questions/lens.webp');
             $('.footer__img').attr('src', 'img/footer/brains.svg');
         }
     });

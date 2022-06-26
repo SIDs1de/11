@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/global/bg-dark.jpg");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/global/bg-dark.webp");
     mix-blend-mode: normal;
     transition: all 0.4s;
 }
@@ -46,7 +46,7 @@ html {
     }
     &__subtitle {
         &::before {
-            content: url("../img/header/photo-black.png");
+            content: url("../img/header/photo-black.webp");
         }
     }
 }
@@ -73,10 +73,10 @@ html {
 
 .time {
     &::before {
-        content: url("../img/time/ball-1-black.png");
+        content: url("../img/time/ball-1-black.webp");
     }
     &::after {
-        content: url("../img/time/ball-2-black.png");
+        content: url("../img/time/ball-2-black.webp");
     }
     &__text {
         color: #fff;
@@ -147,7 +147,7 @@ html {
 }
 
 .promo {
-    background: url("../img/promo/bg-black.png") center/contain no-repeat;
+    background: url("../img/promo/bg-black.webp") center/contain no-repeat;
 }
 
 .footer {
@@ -165,7 +165,7 @@ html {
 
 @media (max-width: 880px) {
     .promo {
-        background: url("../img/promo/bg-2-black.png") center/contain no-repeat;
+        background: url("../img/promo/bg-2-black.webp") center/contain no-repeat;
     }
 }
 
