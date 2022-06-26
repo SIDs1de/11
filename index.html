@@ -23,6 +23,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link href="css/style.css" rel="stylesheet">
+    <link id="dark-theme" href="#" rel="stylesheet">
 
 
     <title>semkav</title>
@@ -94,7 +95,7 @@
                 </h1>
                 <ul class="results__list">
                     <li class="results__item">
-                        <img class="results__img" src="img/results/photo.png" alt="Photo camera">
+                        <img class="results__img results__img--1" src="img/results/photo.png" alt="Photo camera">
                         <h3 class="results__item-title">
                             Перестанете бояться камеру
                         </h3>
@@ -103,7 +104,7 @@
                         </p>
                     </li>
                     <li class="results__item">
-                        <img class="results__img" src="img/results/video.png" alt="Video camera">
+                        <img class="results__img results__img--2" src="img/results/video.png" alt="Video camera">
                         <h3 class="results__item-title">
                             Начнёте снимать
                         </h3>
@@ -113,7 +114,7 @@
                         </p>
                     </li>
                     <li class="results__item">
-                        <img class="results__img" src="img/results/portfolio.png" alt="Dollar Coin">
+                        <img class="results__img results__img--3" src="img/results/portfolio.png" alt="Dollar Coin">
                         <h3 class="results__item-title">
                             Составите портфолио
                         </h3>
@@ -134,8 +135,8 @@
                     Об авторе
                 </h1>
                 <picture>
-                    <source srcset="img/about/bg-2.png" media="(max-width: 880px)">
-                    <img class="about__img" src="img/about/bg.png" usemap="#stars"
+                    <source class="bg-2" srcset="img/about/bg-2.png" media="(max-width: 880px)">
+                    <img class="about__img bg-1" src="img/about/bg.png" usemap="#stars"
                         alt="Hover over the asterisks to see more information">
                 </picture>
 
@@ -846,6 +847,7 @@
     <section class="questions">
         <div class="container">
             <div class="questions__inner">
+                <img class="questions__first" src="img/questions/lens.png" alt="">
                 <h1 class="questions__title title">
                     Ответы на вопросы
                 </h1>

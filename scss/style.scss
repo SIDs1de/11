@@ -553,8 +553,17 @@ ol {
         left: 0;
         right: 0;
         cursor: pointer;
+        background: linear-gradient(94.7deg, #fe6a51 0%, #ffd58c 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
         &:hover {
-            color: #ff3c00;
+            background: linear-gradient(94.7deg, #ffd58c 0%, #fe6a51 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
         }
     }
 }
@@ -754,8 +763,16 @@ ol {
 }
 
 .questions {
+    position: relative;
+    overflow: hidden;
     &__inner {
         margin-bottom: 120px;
+    }
+    &__first {
+        z-index: -1;
+        position: absolute;
+        top: 10%;
+        right: 0;
     }
     &__title {
         margin-bottom: 40px;
@@ -801,7 +818,7 @@ ol {
         &:before {
             content: "";
             position: absolute;
-            top: -10px;
+            top: -18px;
             left: 0;
             height: 1px;
             width: 100%;
@@ -1011,6 +1028,9 @@ ol {
         }
     }
     .questions {
+        &__first {
+            top: 0;
+        }
         &__accard-head {
             font-size: 16px;
         }
@@ -1695,6 +1715,7 @@ ol {
         }
         &__btn-text {
             font-size: 10px;
+            line-height: 150%;
         }
     }
     .footer {

@@ -1,7 +1,37 @@
 $(document).ready(function () {
+
     $('.header__switch-theme').click(function () {
         $(this).toggleClass('switch-on');
         $('body').toggleClass('black');
+        if($('body').hasClass('black')) {
+            $('#dark-theme').attr("href", "css/style-dark.css");
+            $('.offer__first').attr("src", 'img/header/camera-black.png');
+            $('.offer__second').attr("src", 'img/header/comment-black.png');
+            $('.results__img--1').attr("src", 'img/results/photo-black.png');
+            $('.results__img--2').attr("src", 'img/results/video-black.png');
+            $('.results__img--3').attr("src", 'img/results/portfolio-black.png');
+            $('.bg-1').attr("src", 'img/about/bg-black.png');
+            $('.bg-2').attr("srcset", 'img/about/bg-2-black.png');
+            $('.time__img').attr("src", 'img/time/man-black.png');
+            $('.video__first').attr("src", 'img/video/mic-black.png');
+            $('.video__second').attr("src", 'img/video/cup-black.png');
+            $('.questions__first').attr("src", 'img/questions/lens-black.png');
+            $('.footer__img').attr("src", 'img/footer/brains-black.svg');
+        } 
+        else {
+            $('#dark-theme').attr("href", "#");
+            $('.offer__first').attr("src", 'img/header/camera.png');
+            $('.offer__second').attr("src", 'img/header/comment.png');
+            $('.results__img--1').attr("src", 'img/results/photo.png');
+            $('.results__img--2').attr("src", 'img/results/video.png');
+            $('.results__img--3').attr("src", 'img/results/portfolio.png');
+            $('.bg-1').attr("src", 'img/about/bg.png');
+            $('.time__img').attr("src", 'img/time/man.png');
+            $('.video__first').attr("src", 'img/video/mic.png');
+            $('.video__second').attr("src", 'img/video/cup.png');
+            $('.questions__first').attr("src", 'img/questions/lens.png');
+            $('.footer__img').attr("src", 'img/footer/brains.svg');
+        }
     });
 
     $('.about__star--1').mouseenter(() => {

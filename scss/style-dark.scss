@@ -1,0 +1,184 @@
+body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/global/bg-dark.jpg");
+    mix-blend-mode: normal;
+    transition: all 0.4s;
+}
+
+html {
+    background: none;
+    transition: all 0.4s;
+}
+
+.header {
+    transition: all 0.4s;
+    &__text {
+        color: #fff;
+        transition: all 0.4s;
+    }
+    &__subs {
+        background: #212121;
+        color: #fff;
+        transition: all 0.4s;
+    }
+    &__switch-theme {
+        background: #212121;
+        transition: all 0.4s;
+        span {
+            color: #fff;
+            transition: all 0.4s;
+        }
+        &::after {
+            background: #333333;
+            transition: all 0.4s;
+        }
+    }
+}
+
+.offer {
+    transition: all 0.4s;
+    &__title {
+        color: #fff;
+        transition: all 0.4s;
+    }
+    &__text {
+        color: #fff;
+        transition: all 0.4s;
+    }
+    &__subtitle {
+        &::before {
+            content: url("../img/header/photo-black.png");
+        }
+    }
+}
+
+.title {
+    color: #fff;
+}
+
+.results {
+    &__item-title {
+        color: #fff;
+    }
+    &__item-text {
+        color: #fff;
+    }
+}
+
+.about {
+    &__descr {
+        background-color: rgb(15, 15, 15);
+        color: #fff;
+    }
+}
+
+.time {
+    &::before {
+        content: url("../img/time/ball-1-black.png");
+    }
+    &::after {
+        content: url("../img/time/ball-2-black.png");
+    }
+    &__text {
+        color: #fff;
+    }
+}
+
+.program {
+    &__item {
+        background: #111111;
+        box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.03);
+    }
+    &__item-title {
+        color: #fff;
+    }
+    &__item-item {
+        color: #fff;
+    }
+}
+
+.slick-dots {
+    li:not(.active) {
+        button {
+            background-color: rgb(112, 112, 112);
+        }
+    }
+    li.slick-active button {
+        background: #fe6a51;
+    }
+}
+
+.popup {
+    background-color: rgb(32, 32, 32);
+    &__title {
+        color: #fff;
+    }
+    &__lesson {
+        color: #fff;
+    }
+    &__subtitle {
+        color: #fff;
+    }
+    &__par {
+        color: #fff;
+    }
+}
+
+.questions {
+    &__item {
+        border-radius: 30px;
+    }
+    &__accard-head {
+        background: #111111;
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+        &::after {
+            background: url("../img/questions/plus-black.svg") center/cover no-repeat;
+        }
+    }
+    &__accard-body {
+        background: #111111;
+        color: #fff;
+        &::before {
+            background-color: #000;
+        }
+    }
+}
+
+.promo {
+    background: url("../img/promo/bg-black.png") center/contain no-repeat;
+}
+
+.footer {
+    &__inner {
+        background: #111111;
+        box-shadow: 0px 10px 100px rgba(81, 57, 57, 0.08);
+    }
+    a {
+        color: rgba(255, 255, 255, 0.4);
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 880px) {
+    .promo {
+        background: url("../img/promo/bg-2-black.png") center/contain no-repeat;
+    }
+}
+
+*::-webkit-scrollbar {
+    width: 10px; /* ширина scrollbar */
+}
+*::-webkit-scrollbar-track {
+    background: rgb(15, 15, 15); /* цвет дорожки */
+}
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(75, 75, 75); /* цвет плашки */
+    border-radius: 0px; /* закругления плашки */
+    &:active {
+        background-color: rgb(88, 88, 88); /* цвет плашки */
+    }
+}
