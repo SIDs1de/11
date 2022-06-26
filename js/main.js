@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    
+    new WOW().init();
+
     $('.header__switch-theme').click(function () {
         $(this).toggleClass('switch-on');
         $('body').toggleClass('black');
@@ -12,8 +15,8 @@ $(document).ready(function () {
                 'src',
                 'img/results/portfolio-black.png'
             );
-            $('.bg-1').attr('src', 'img/about/bg-black.png');
-            $('.bg-2').attr('srcset', 'img/about/bg-2-black.png');
+            $('.bg-1').attr('src', 'img/about/bg-black.webp');
+            $('.bg-2').attr('srcset', 'img/about/bg-2-black.webp');
             $('.time__img').attr('src', 'img/time/man-black.png');
             $('.video__first').attr('src', 'img/video/mic-black.png');
             $('.video__second').attr('src', 'img/video/cup-black.png');
@@ -26,8 +29,8 @@ $(document).ready(function () {
             $('.results__img--1').attr('src', 'img/results/photo.png');
             $('.results__img--2').attr('src', 'img/results/video.png');
             $('.results__img--3').attr('src', 'img/results/portfolio.png');
-            $('.bg-1').attr('src', 'img/about/bg.png');
-            $('.bg-2').attr('srcset', 'img/about/bg-2.png');
+            $('.bg-1').attr('src', 'img/about/bg.webp');
+            $('.bg-2').attr('srcset', 'img/about/bg-2.webp');
             $('.time__img').attr('src', 'img/time/man.png');
             $('.video__first').attr('src', 'img/video/mic.png');
             $('.video__second').attr('src', 'img/video/cup.png');

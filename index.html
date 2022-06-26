@@ -21,10 +21,11 @@
 
     <!-- CSS STYLES -->
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/animate.css">
     <link href="css/style.css" rel="stylesheet">
     <link id="dark-theme" href="#" rel="stylesheet">
-
 
     <title>semkav</title>
 </head>
@@ -37,7 +38,7 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <a href="#" class="header__logo">
+                <a href="#" class="header__logo wow animate__animated animate__backInLeft">
                     <img class="header__img" src="img/header/logo.png"
                         alt="the most famous street photographer in Russia">
                     <p class="header__text">
@@ -45,7 +46,7 @@
                         стрит-фотографа России
                     </p>
                 </a>
-                <div class="header__btns">
+                <div class="header__btns wow animate__animated animate__backInRight">
                     <div class="header__switch-theme">
                         <span>С</span><span>Т</span>
                     </div>
@@ -66,19 +67,19 @@
             <div class="offer__inner">
                 <img class="offer__first" src="img/header/camera.png">
                 <img class="offer__second" src="img/header/comment.png">
-                <h2 class="offer__subtitle">
+                <h2 class="offer__subtitle wow animate__animated animate__fadeInDown">
                     Курс от Сёмы Резчикова
                 </h2>
-                <h1 class="offer__title">
+                <h1 class="offer__title wow animate__animated animate__fadeInDown">
                     Начинающий фотограф
                 </h1>
-                <p class="offer__text">
+                <p class="offer__text wow animate__animated animate__fadeInDown">
                     Узнаешь всё о том, как выбрать свою первую камеру.
                     Поймешь принципы работы со светом и композицией в кадре,
                     а также создашь своё первое профессиональное портфолио
                 </p>
                 <a class="offer__link" href="#">
-                    <span class="offer__link-text">принять участие</span>
+                    <span class="offer__link-text wow animate__animated animate__fadeInUp">принять участие</span>
                     <span class="offer__upper"></span>
                 </a>
             </div>
@@ -94,7 +95,7 @@
                     Результат после обучения
                 </h1>
                 <ul class="results__list">
-                    <li class="results__item">
+                    <li class="results__item wow animate__animated animate__fadeInUp">
                         <img class="results__img results__img--1" src="img/results/photo.png" alt="Photo camera">
                         <h3 class="results__item-title">
                             Перестанете бояться камеру
@@ -103,7 +104,7 @@
                             Поймете принцип её работы, научитесь работать со всеми настройками
                         </p>
                     </li>
-                    <li class="results__item">
+                    <li class="results__item wow animate__animated animate__fadeInUp">
                         <img class="results__img results__img--2" src="img/results/video.png" alt="Video camera">
                         <h3 class="results__item-title">
                             Начнёте снимать
@@ -113,7 +114,7 @@
                             кадры
                         </p>
                     </li>
-                    <li class="results__item">
+                    <li class="results__item wow animate__animated animate__fadeInUp">
                         <img class="results__img results__img--3" src="img/results/portfolio.png" alt="Dollar Coin">
                         <h3 class="results__item-title">
                             Составите портфолио
@@ -130,13 +131,13 @@
 
     <section class="about">
         <div class="container">
-            <div class="about__inner">
+            <div class="about__inner wow animate__animated animate__fadeInLeft">
                 <h1 class="about__title title">
                     Об авторе
                 </h1>
                 <picture>
-                    <source class="bg-2" srcset="img/about/bg-2.png" media="(max-width: 880px)">
-                    <img class="about__img bg-1" src="img/about/bg.png" usemap="#stars"
+                    <source class="bg-2" srcset="img/about/bg-2.webp" media="(max-width: 880px)">
+                    <img class="about__img bg-1" src="img/about/bg.webp" usemap="#stars"
                         alt="Hover over the asterisks to see more information">
                 </picture>
 
@@ -209,8 +210,8 @@
     <section class="time">
         <div class="container">
             <div class="time__inner">
-                <img class="time__img" src="img/time/man.png">
-                <div class="time__main">
+                <img class="time__img wow animate__animated animate__flash" src="img/time/man.png">
+                <div class="time__main wow animate__animated animate__bounceInUp">
                     <h4 class="time__subtitle">
                         Успей вписаться
                     </h4>
@@ -240,7 +241,7 @@
     <section class="program">
         <div class="container">
             <div class="program__inner">
-                <h1 class="program__title title">
+                <h1 class="program__title title wow animate__animated animate__flip">
                     Программа курса
                 </h1>
                 <div class="program__swiper">
@@ -820,10 +821,10 @@
             <div class="video__inner">
                 <img class="video__first" src="img/video/mic.png">
                 <img class="video__second" src="img/video/cup.png">
-                <div class="video__title title">
+                <div class="video__title title wow animate__animated animate__lightSpeedInRight">
                     Как проходят уроки
                 </div>
-                <div class="video__wrapper">
+                <div class="video__wrapper wow animate__animated animate__zoomInUp">
                     <div class="video__video">
                         <iframe src="https://www.youtube.com/embed/khbakQ9bI_I" title="YouTube video player"
                             frameborder="0"
@@ -848,11 +849,11 @@
         <div class="container">
             <div class="questions__inner">
                 <img class="questions__first" src="img/questions/lens.png" alt="">
-                <h1 class="questions__title title">
+                <h1 class="questions__title title wow animate__animated animate__slideInUp">
                     Ответы на вопросы
                 </h1>
                 <ul class="questions__accard" data-accordion="open">
-                    <li class="questions__item">
+                    <li class="questions__item wow animate__animated animate__bounce">
                         <div class="questions__accard-head">
                             Какое необходимо оборудование для успешного прохождения курса?
                         </div>
@@ -867,7 +868,7 @@
                             praesentium!
                         </div>
                     </li>
-                    <li class="questions__item">
+                    <li class="questions__item wow animate__animated animate__bounce">
                         <div class="questions__accard-head">
                             Когда начнётся курс? Сколько он будет длиться?
                         </div>
@@ -882,7 +883,7 @@
                             praesentium!
                         </div>
                     </li>
-                    <li class="questions__item">
+                    <li class="questions__item wow animate__animated animate__bounce">
                         <div class="questions__accard-head">
                             Сколько времени в день нужно будет уделять, чтобы успеть всё пройти?
                         </div>
@@ -897,7 +898,7 @@
                             praesentium!
                         </div>
                     </li>
-                    <li class="questions__item">
+                    <li class="questions__item wow animate__animated animate__bounce">
                         <div class="questions__accard-head">
                             Есть ли возможность смотреть уроки в записи после окончания курса?
                         </div>
@@ -918,7 +919,7 @@
     </section>
 
 
-    <section class="promo">
+    <section class="promo wow animate__animated animate__jello">
         <div class="container">
             <div class="promo__inner">
                 <h5 class="promo__subtitle">
@@ -950,9 +951,9 @@
         <div class="container">
             <div class="footer__inner">
                 <a href="#" class="footer__logo">
-                    <img class="footer__img" src="img/footer/brains.svg" alt="Brain University Logo">
+                    <img class="footer__img wow animate__animated animate__fadeIn" src="img/footer/brains.svg" alt="Brain University Logo">
                 </a>
-                <div class="footer__info">
+                <div class="footer__info wow animate__animated animate__fadeIn">
                     <a href="#" class="footer__upper">
                         Юридческая информация
                     </a>
@@ -971,6 +972,7 @@
 
     <!-- SCRIPTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>

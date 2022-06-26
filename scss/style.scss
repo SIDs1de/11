@@ -21,6 +21,7 @@ body {
     &.active {
         overflow: hidden;
     }
+    overflow-x: hidden;
 }
 
 .container {
