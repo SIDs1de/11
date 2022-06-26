@@ -603,8 +603,6 @@ ol {
         left: -4px;
     }
 }
-.popup__head {
-}
 
 .bg-popup {
     position: absolute;
@@ -616,8 +614,6 @@ ol {
 }
 
 .popup {
-    &__body {
-    }
     &__head {
         display: flex;
         align-items: center;
@@ -645,12 +641,6 @@ ol {
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-fill-color: transparent;
-    }
-    &__inner {
-    }
-    &__list {
-    }
-    &__item {
     }
     &__item + &__item {
         margin-top: 50px;
@@ -1487,36 +1477,6 @@ ol {
             font-size: 14px;
         }
     }
-    .popup {
-        &__body {
-        }
-        &__head {
-        }
-        &__title {
-        }
-        &__num {
-        }
-        &__inner {
-        }
-        &__list {
-        }
-        &__item {
-        }
-        &__item + &__item {
-        }
-        &__lesson {
-        }
-        &__subtitle {
-        }
-        &__par {
-        }
-        &__par + &__par {
-        }
-        &__prize {
-            &::before {
-            }
-        }
-    }
 }
 
 @media (max-width: 375px) {
@@ -1758,22 +1718,6 @@ ol {
     .popup {
         padding: 30px;
         padding-right: 15px;
-        &__body {
-        }
-        &__head {
-        }
-        &__title {
-        }
-        &__num {
-        }
-        &__inner {
-        }
-        &__list {
-        }
-        &__item {
-        }
-        &__item + &__item {
-        }
         &__lesson {
             font-size: 12px;
         }
@@ -1784,14 +1728,10 @@ ol {
             font-size: 14px;
             line-height: 150%;
         }
-        &__par + &__par {
-        }
         &__prize {
             font-size: 14px;
             width: 100%;
             line-height: 130%;
-            &::before {
-            }
         }
     }
 }
