@@ -290,7 +290,7 @@ ol {
         text-align: center;
         align-items: center;
         position: relative;
-        flex: 1 1 auto;
+        flex: 1 1 33.3333%;
     }
     &__item + &__item {
         margin-left: 60px;
@@ -299,11 +299,6 @@ ol {
         width: 200px;
         position: absolute;
         height: 200px;
-    }
-    &__img--bad {
-        top: -95px;
-        width: 400px;
-        height: 400px;
     }
     &__item-title {
         padding-top: 240px;
@@ -1094,6 +1089,7 @@ ol {
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
+            flex-direction: column;
         }
         &__item + &__item {
             margin-top: 60px;
@@ -1331,10 +1327,6 @@ ol {
         &__img {
             width: 160px;
             height: 160px;
-        }
-        &__img--bad {
-            width: 320px;
-            height: 320px;
         }
         &__item-title {
             font-size: 14px;
@@ -1591,10 +1583,6 @@ ol {
         &__img {
             width: 140px;
             height: 140px;
-        }
-        &__img--bad {
-            width: 300px;
-            height: 300px;
         }
     }
     .about {
