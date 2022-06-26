@@ -598,6 +598,10 @@ ol {
     padding-right: 30px;
 }
 
+section.active {
+    filter: blur(5px);
+}
+
 .close-popup {
     position: absolute;
     top: 20px;
@@ -610,6 +614,8 @@ ol {
         position: absolute;
         top: 11px;
         left: -4px;
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -1246,7 +1252,7 @@ ol {
         }
     }
     .popup {
-        max-width: 100%;
+        max-width: 95%;
     }
 }
 
@@ -1739,6 +1745,13 @@ ol {
     .popup {
         padding: 30px;
         padding-right: 15px;
+        border-radius: 15px;
+        &__title {
+            font-size: 36px;
+        }
+        &__num {
+            font-size: 36px;
+        }
         &__lesson {
             font-size: 12px;
         }
