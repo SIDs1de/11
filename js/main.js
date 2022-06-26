@@ -26,6 +26,7 @@ $(document).ready(function () {
             $('.results__img--2').attr("src", 'img/results/video.png');
             $('.results__img--3').attr("src", 'img/results/portfolio.png');
             $('.bg-1').attr("src", 'img/about/bg.png');
+            $('.bg-2').attr("srcset", 'img/about/bg-2.png');
             $('.time__img').attr("src", 'img/time/man.png');
             $('.video__first').attr("src", 'img/video/mic.png');
             $('.video__second').attr("src", 'img/video/cup.png');
