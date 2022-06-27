@@ -605,8 +605,8 @@ section.active {
 
 .close-popup {
     position: absolute;
-    top: 10px;
-    right: 30px;
+    top: 21px;
+    right: 35px;
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -614,8 +614,6 @@ section.active {
         content: url();
         background: url("../img/popup/close.svg") center/cover no-repeat;
         position: absolute;
-        top: 11px;
-        left: -4px;
         width: 100%;
         height: 100%;
     }
