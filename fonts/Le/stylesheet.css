@@ -1,5 +1,5 @@
 @font-face {
-    font-display: swap;
+    /* font-display: swap; */
     font-family: 'Le Murmure';
     src: url('LeMurmure-Regular.otf');
     src: local('LeMurmureRegular'), local('LeMurmure-Regular'),

@@ -140,7 +140,7 @@ ol {
         border-radius: 10px;
         color: #fff;
         position: relative;
-        transition: all .2s;
+        transition: all 0.2s;
         &:hover {
             letter-spacing: 1px;
         }
@@ -500,10 +500,11 @@ ol {
         background: #ffffff;
         box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.03);
         border-radius: 30px;
-        padding-bottom: 65px;
+        padding-bottom: 30px;
         margin-right: 20px;
         position: relative;
-        min-height: 530px;
+        display: flex;
+        flex-direction: column;
     }
     &__item-head {
         display: flex;
@@ -535,6 +536,8 @@ ol {
     }
     &__item-list {
         padding: 0 20px 0 40px;
+        flex: 1 1 auto;
+        min-height: 260px;
     }
     &__item-item {
         font-size: 16px;
@@ -553,10 +556,11 @@ ol {
         display: block;
         text-align: center;
         transition: all 0.2s;
-        position: absolute;
-        bottom: 20px;
-        left: 0;
-        right: 0;
+        // position: absolute;
+        // bottom: 20px;
+        // left: 0;
+        // right: 0;
+        padding-top: 20px;
         cursor: pointer;
         background: linear-gradient(94.7deg, #fe6a51 0%, #ffd58c 100%);
         -webkit-background-clip: text;
@@ -689,7 +693,7 @@ section.active {
         font-weight: 700;
         padding: 13px 20px 13px 49px;
         background: linear-gradient(94.7deg, #fe6a51 0%, #ffd58c 100%);
-        transition: all .2s;
+        transition: all 0.2s;
         &:hover {
             letter-spacing: 1px;
         }

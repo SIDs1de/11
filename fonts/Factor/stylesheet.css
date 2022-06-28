@@ -1,5 +1,5 @@
 @font-face {
-    font-display: swap;
+    /* font-display: swap; */
     font-family: 'Factor A';
     src: url('FactorALight-Regular.eot');
     src: local('Factor A Light Regular'), local('FactorALight-Regular'),
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-display: swap;
+    /* font-display: swap; */
     font-family: 'Factor A';
     src: url('FactorA-Regular.eot');
     src: local('Factor A Regular'), local('FactorA-Regular'),
@@ -25,7 +25,7 @@
 }
 
 @font-face {
-    font-display: swap;
+    /* font-display: swap; */
     font-family: 'Factor A';
     src: url('FactorAMedium-Regular.eot');
     src: local('Factor A Medium Regular'), local('FactorAMedium-Regular'),
@@ -38,7 +38,7 @@
 }
 
 @font-face {
-    font-display: swap;
+    /* font-display: swap; */
     font-family: 'Factor A';
     src: url('FactorA-Bold.eot');
     src: local('Factor A Bold'), local('FactorA-Bold'),

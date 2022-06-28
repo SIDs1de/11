@@ -1,5 +1,5 @@
 @font-face {
-    font-display: swap;
+    /* font-display: swap; */
     font-family: 'Manrope';
     src: url('Manrope-Bold.eot');
     src: local('Manrope Bold'), local('Manrope-Bold'),
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-display: swap;
+    /* font-display: swap; */
     font-family: 'Manrope';
     src: url('Manrope-Semibold.eot');
     src: local('Manrope Semibold'), local('Manrope-Semibold'),
@@ -25,7 +25,7 @@
 }
 
 @font-face {
-    font-display: swap;
+    /* font-display: swap; */
     font-family: 'Manrope';
     src: url('Manrope-Regular.eot');
     src: local('Manrope Regular'), local('Manrope-Regular'),
@@ -38,7 +38,7 @@
 }
 
 @font-face {
-    font-display: swap;
+    /* font-display: swap; */
     font-family: 'Manrope';
     src: url('Manrope-Light.eot');
     src: local('Manrope Light'), local('Manrope-Light'),
@@ -51,7 +51,7 @@
 }
 
 @font-face {
-    font-display: swap;
+    /* font-display: swap; */
     font-family: 'Manrope';
     src: url('Manrope-Thin.eot');
     src: local('Manrope Thin'), local('Manrope-Thin'),
@@ -64,7 +64,7 @@
 }
 
 @font-face {
-    font-display: swap;
+    /* font-display: swap; */
     font-family: 'Manrope';
     src: url('Manrope-Medium.eot');
     src: local('Manrope Medium'), local('Manrope-Medium'),
@@ -77,7 +77,7 @@
 }
 
 @font-face {
-    font-display: swap;
+    /* font-display: swap; */
     font-family: 'Manrope';
     src: url('Manrope-ExtraBold.eot');
     src: local('Manrope ExtraBold'), local('Manrope-ExtraBold'),
