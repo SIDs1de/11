@@ -126,6 +126,7 @@ $(document).ready(function () {
             // autoplaySpeed: 3000,
             dots: true,
             arrows: false,
+            adaptiveHeight: true,
             responsive: [
                 {
                     breakpoint: 1024,
