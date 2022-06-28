@@ -1784,6 +1784,11 @@ section.active {
             line-height: 130%;
         }
     }
+    .program {
+        &__item-list {
+            min-height: 250px;
+        }
+    }
 }
 
 .slick-dots {
