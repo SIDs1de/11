@@ -59,6 +59,9 @@ ol {
 }
 
 // MAIN
+.steps {
+    cursor: pointer;
+}
 
 .header {
     padding-top: 40px;
@@ -652,6 +655,14 @@ section.active {
         letter-spacing: 0.04em;
         text-transform: uppercase;
         margin-right: 40px;
+        span {
+            text-transform: uppercase;
+            background: linear-gradient(93.84deg, #fe6a51 70.62%, #ffd58c 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
     }
     &__num {
         font-family: "Azkia", "Arial", sans-serif;
@@ -710,6 +721,14 @@ section.active {
             transform: translateY(-50%);
             left: 11px;
             background: url("../img/popup/prize.svg");
+        }
+    }
+    &__prize--no-prize {
+        padding: 20px 13px;
+        text-align: center;
+        &::before {
+            display: none;
+            text-align: center;
         }
     }
 }
@@ -1266,6 +1285,7 @@ section.active {
     .popup {
         max-width: 95%;
     }
+
 }
 
 @media (max-width: 800px) {

@@ -191,6 +191,11 @@ $(document).ready(function () {
     $('.program__link--4').click(function () {
         $('.overlay--4').fadeIn();
     });
+    $('.steps').click(function () {
+        $('.overlay--5').fadeIn();
+        $('body').addClass('active');
+        $('section').addClass('active');
+    });
 
     $('.program__link').click(function () {
         $('body').addClass('active');
