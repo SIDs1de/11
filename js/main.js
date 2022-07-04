@@ -193,11 +193,13 @@ $(document).ready(function () {
     });
     $('.steps').click(function () {
         $('.overlay--5').fadeIn();
+        $('.popup').addClass('active');
         $('body').addClass('active');
         $('section').addClass('active');
     });
 
     $('.program__link').click(function () {
+        $('.popup').addClass('active');
         $('body').addClass('active');
         $('section').addClass('active');
     });
@@ -206,16 +208,19 @@ $(document).ready(function () {
         $('.overlay').fadeOut();
         $('body').removeClass('active');
         $('section').removeClass('active');
+        $('.popup').removeClass('active');
     });
 
     $('.bg-popup').click(function () {
         $('.overlay').fadeOut();
         $('body').removeClass('active');
         $('section').removeClass('active');
+        $('.popup').removeClass('active');
     });
 
     $('.popup__prize').click(function () {
         $('.overlay').fadeOut();
+        $('.popup').removeClass('active');
         $('body').removeClass('active');
         $('section').removeClass('active');
     });
