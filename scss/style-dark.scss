@@ -177,7 +177,6 @@ html {
 }
 *::-webkit-scrollbar-thumb {
     background-color: rgb(75, 75, 75); /* цвет плашки */
-    border-radius: 0px; /* закругления плашки */
     &:active {
         background-color: rgb(88, 88, 88); /* цвет плашки */
     }

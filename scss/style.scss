@@ -508,7 +508,7 @@ ol {
         position: relative;
         display: flex;
         flex-direction: column;
-        transition: all .4s;
+        transition: all 0.4s;
         &:hover {
             transform: scale(1.05);
         }
@@ -607,7 +607,7 @@ ol {
     box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.03);
     border-radius: 30px;
     opacity: 0;
-    transition: all .8s;
+    transition: all 0.8s;
 }
 
 .popup.active {
