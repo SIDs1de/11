@@ -218,7 +218,7 @@ $(document).ready(function () {
         $('.popup').removeClass('active');
     });
 
-    $('.popup__prize').click(function () {
+    $('.popup__item a').click(function () {
         $('.overlay').fadeOut();
         $('.popup').removeClass('active');
         $('body').removeClass('active');
