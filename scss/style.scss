@@ -21,6 +21,7 @@ body {
     &.active {
         overflow: hidden;
     }
+    position: relative;
     overflow-x: hidden;
 }
 
@@ -387,6 +388,7 @@ ol {
         margin-right: 40px;
     }
     &__main {
+        overflow-x: hidden;
         position: relative;
         top: -50px;
     }

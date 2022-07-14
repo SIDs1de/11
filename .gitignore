@@ -2,3 +2,4 @@ node_modules
 prepros.config
 bad.html
 *.php
+secret.txt
