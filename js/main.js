@@ -22,9 +22,9 @@ $(document).ready(function () {
                 'src',
                 'img/results/portfolio-black.webp'
             );
-            $('.bg-1').attr('src', 'img/about/bg-black.webp');
-            $('.bg-2').attr('srcset', 'img/about/bg-2-black.webp');
-            $('.time__img').attr('src', 'img/time/man-black.webp');
+            // $('.bg-1').attr('src', 'img/about/bg-black.webp');
+            // $('.bg-2').attr('srcset', 'img/about/bg-2-black.webp');
+            // $('.time__img').attr('src', 'img/time/man-black.webp');
             $('.video__first').attr('src', 'img/video/mic-black.webp');
             $('.video__second').attr('src', 'img/video/cup-black.webp');
             $('.questions__first').attr('src', 'img/questions/lens-black.webp');
@@ -36,8 +36,8 @@ $(document).ready(function () {
             $('.results__img--1').attr('src', 'img/results/photo.webp');
             $('.results__img--2').attr('src', 'img/results/video.webp');
             $('.results__img--3').attr('src', 'img/results/portfolio.webp');
-            $('.bg-1').attr('src', 'img/about/bg.webp');
-            $('.bg-2').attr('srcset', 'img/about/bg-2.webp');
+            $('.bg-1').attr('src', 'img/about/bg.png');
+            $('.bg-2').attr('srcset', 'img/about/bg-2.png');
             $('.time__img').attr('src', 'img/time/man.webp');
             $('.video__first').attr('src', 'img/video/mic.webp');
             $('.video__second').attr('src', 'img/video/cup.webp');
